@@ -16,6 +16,15 @@ public class Student
 {
     private String name;
     private String studentID;
+    private String studentAge;
+
+    public void setStudentID(String studentID) {
+        this.studentID = studentID;
+    }
+
+    public void setStudentAge(String studentAge) {
+        this.studentAge = studentAge;
+    }
 
     /**
      * @return the name
